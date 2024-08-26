@@ -1,0 +1,388 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  @media (max-width: 1000px){
+
+}
+nav .navbutton i{
+
+  display: block;}
+
+  nav ul{
+    list-style-type: none;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(50, 129, 30);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 45px;
+  }
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100px;
+  }
+  li a:hover
+  {
+    background-color: rgb(92, 88, 88);
+  }
+
+@media (max-width: 920px)
+  {
+
+    nav .navbutton i{
+
+        display: block;}
+
+        nav ul{
+          list-style-type: none;
+          font-size: 18px;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgb(50, 129, 30);
+          position: fixed;
+          top: 0;
+          width: 100%;
+          height: 60px;
+        }
+
+      nav li {
+          display: inline-block;
+      }
+
+      nav li a {
+          display: block;
+          color: rgb(0, 0, 0);
+          text-align: center;
+          padding: 6px 10px;
+          text-decoration: none;
+          width: 100px;
+        }
+        li a:hover
+        {
+          background-color: rgb(92, 88, 88);
+        }
+
+  }
+
+  body {
+    background-color: #333;
+  }
+
+  .imgstartseite {
+    background-image: url(Startseite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+  .imgherkunft {
+    background-image: url(Herkunft.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  .imgfitness{
+    background-image: url(Fitness.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  .imgreisen {
+    background-image: url(Reisen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-blend-mode: soft-light;
+  }
+
+  .imggames {
+    background-image: url(Games.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+.social_media_icons_big {
+      line-height: 50px;
+        border: 3px #5996ff;
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 250px;
+        margin-left: 500px;
+}
+
+.ryan {
+  width: 20%;
+  float: left;
+  margin-top: 150px;
+  margin-left: 100px;
+
+}
+
+.thomasshelby{
+  width: 100%;
+  float: right;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+.goiania {
+  width: 25%;
+  float: left;
+  margin-left: 25px;
+  margin-top: 250px;
+}
+
+.wohnung
+{
+  width: 40%;
+  float: right;
+  margin-right: 100px;
+  margin-top: 250px;
+  margin-bottom: 20px;
+}
+
+.erde {
+  width: 45%;
+  float: right;
+  margin-right: 100px;
+  margin-top: 200px;
+}
+
+.ark
+{
+  margin-top: 100px;
+  margin-right: 0px;
+  width: 100%;
+  float: right;
+}
+
+.pc
+{
+  margin-top: 100px;
+  margin-left: 0px;
+  width: 100%;
+  float: left;
+}
+
+.trainingsplan
+{
+  margin-top: 250px;
+  margin-left: 50px;
+  width:45%;
+  float: left;
+}
+
+.gym
+{
+  margin-top: 100px;
+  margin-right: 150px;
+  width:30%;
+  float: right;
+}
+
+
+.textsteckbrief {
+  margin-top: 200px;
+  margin-left: 25px;
+  width: 50%;
+  float: left;
+}
+.textthomasshelby
+{
+  margin-top: 150px;
+  margin-right: 100px;
+  width: 45%;
+  float: right;
+}
+
+.textherkunft {
+  margin-top: 300px;
+  margin-left: 20px;
+  width: 40%;
+  float: left;
+}
+
+.textwohnung
+{
+  margin-top: 250px;
+  margin-right: 50px;
+  width: 40%;
+  float: right;
+}
+
+
+.textfitness {
+  margin-top: 250px;
+  margin-right: 50px;
+  width: 45%;
+  float: right;
+}
+
+.textgym
+{
+  margin-top: 250px;
+  margin-left: 150px;
+  width: 45%;
+  float: left;
+}
+
+
+
+.textgames
+{
+  margin-top: 60px;
+  margin-right: 200px;
+  width: 40%;
+  float: right;
+}
+
+.textpc
+{
+  margin-top: 60px;
+  margin-left: 200px;
+  width:30%;
+  float: left;
+}
+
+.textreisen
+{
+  margin-top: 200px;
+  margin-left: 20px;
+  width: 45%;
+  float: left;
+}
+
+.textreisen ul {
+  font-size: 22px;
+  background-color: skyblue;
+}
+
+h1{
+  text-align: center;
+  color: rgb(255, 224, 140);
+
+}
+
+h3 {
+ background-color: skyblue;
+}
+
+p {
+  font-size: 22px;
+  background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+.form-box {
+  display: inline-block;
+  max-width: 300px;
+  background: #f1f7fe;
+  overflow: hidden;
+  border-radius: 16px;
+  color: #010101;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+
+/*Form text*/
+.title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+
+/*Inputs box*/
+.form-container {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 1rem 0 .5rem;
+  width: 100%;
+}
+
+.input {
+  background: none;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  font-size: .9rem;
+  padding: 8px 15px;
+}
+
+.form-section {
+  padding: 16px;
+  font-size: .85rem;
+  background-color: #e0ecfb;
+  box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+}
+
+.form-section a {
+  font-weight: bold;
+  color: #0066ff;
+  transition: color .3s ease;
+}
+
+.form-section a:hover {
+  color: #005ce6;
+  text-decoration: underline;
+}
+
+/*Button*/
+.form button {
+  background-color: #0066ff;
+  color: #fff;
+  border: 0;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.form button:hover {
+  background-color: #005ce6;
+}
